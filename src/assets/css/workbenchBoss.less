@@ -1,0 +1,115 @@
+.workbenchBoss {
+    margin-top: 0px;
+    width: 1650px;
+    height: 1021px;
+    // background-color: #f4f4f4;
+    background-color: #FFFFFF;
+    border-top: 1px solid transparent;
+
+    .kanban {
+        position: relative;
+        margin: 20px;
+        width: 1610px;
+        height: 340px;
+        background-color: #fff;
+        border-top: 1px solid transparent;
+
+        h3 {
+            margin: 30px 0 0 20px;
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Microsoft Yahei UI Bold';
+        }
+
+        .right {
+            position: absolute;
+            top: 26px;
+            right: 20px;
+
+            span {
+                float: left;
+                font-size: 16px;
+                color: #666;
+                font-family: 'MicrosoftYaHeiUI';
+            }
+
+            .switch {
+                float: left;
+                margin-left: 10px;
+            }
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            margin: 31px 40px;
+            height: 180px;
+            width: 1530px;
+
+            .item-flex {
+                width: 282px;
+                height: 180px;
+                border-radius: 10px;
+
+                &:nth-child(1) {
+                    background: url("../img/workbenchBoss/bg1.png") no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                &:nth-child(2) {
+                    background: url("../img/workbenchBoss/bg2.png") no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                &:nth-child(3) {
+                    background: url("../img/workbenchBoss/bg3.png") no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                &:nth-child(4) {
+                    background: url("../img/workbenchBoss/bg4.png") no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                &:nth-child(5) {
+                    background: url("../img/workbenchBoss/bg5.png") no-repeat;
+                    background-size: 100% 100%;
+                }
+
+                .item-flex_img_title {
+                    margin-top: 28px;
+                    margin-left: 58px;
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        margin-right: 16px;
+                    }
+
+                    .item-flex_title {
+                        font-size: 22px;
+                        font-family: MicrosoftYaHeiUI;
+                        color: #FFFFFF;
+                        line-height: 28px
+                    }
+                }
+
+                .item-flex_num {
+                    font-size: 34px;
+                    font-family: MicrosoftYaHeiUI-Bold, MicrosoftYaHeiUI;
+                    font-weight: bold;
+                    color: #FFFFFF;
+                    line-height: 44px;
+                    text-align: center;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+    .tab_box{
+        padding: 0 20px;
+    }
+}

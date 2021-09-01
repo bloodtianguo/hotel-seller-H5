@@ -1,0 +1,88 @@
+@import "./element-ui.less";
+@import "./transition.less";
+.container{
+  height: calc(100% - 60px);
+}
+// 字体加粗
+.fontwei{
+  font-weight: bold;
+}
+//字体大小
+.font12{
+  font-size: 12px;
+}
+//字体高度
+.lh30{
+    line-height: 30px;
+}
+//文字颜色
+.colblu{
+  color: #0066cc;
+}
+.colred{
+  color: #FF7575;
+}
+// 列表文字颜色
+.col19e{
+  color:#19E44A;
+}
+.col1ce{
+  color: #1CEDE7;
+}
+.col333{
+  color: #333;
+}
+.colf5{
+  color: #F52828;
+}
+.col999{
+  color: #999999;
+}
+.col4b5{
+  color: #4B51FD;
+}
+.el-table .warning-row999 {
+  color: #999999;
+  background: #FFFFFF;
+}
+.el-table .success-row999 {
+  color: #999999;
+  background: #F8F9FF;
+}
+.app-container{
+  // background-color: #fff;
+  padding-bottom: 20px!important; 
+}
+::v-deep video::-internal-media-controls-overflow-button{
+  display: none !important;
+}
+//超出隐藏
+.hidden-seven{
+  width: 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+//布局
+.flex-sta{
+  display: flex;
+  justify-content: start;
+}
+.ali-center{
+    align-items: center;
+}
+// 自定义前面的红点
+.bered{ 
+    position: relative;
+    display: inline-block;
+    &::after{
+        content: "*";
+        position: absolute;
+        left: -1em;
+        top: 50%;
+        transform:translateY(-50%);
+        color: red;
+    }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "hotel-seller",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve:production": "vue-cli-service serve --mode production",
+    "build:development": "vue-cli-service build --mode development",
+    "build:production": "vue-cli-service build --mode production"
+  },
+  "dependencies": {
+    "@tinymce/tinymce-vue": "^3.2.8",
+    "ali-oss": "^6.16.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "dsbridge": "^3.1.4",
+    "element-ui": "^2.15.3",
+    "file-saver": "^2.0.5",
+    "js-md5": "^0.7.3",
+    "moment": "^2.29.1",
+    "qiniu-js": "^3.3.1",
+    "qrcodejs2": "0.0.2",
+    "tinymce": "^5.8.2",
+    "vue": "^2.6.11",
+    "vue-amap": "^0.5.10",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "xlsx": "^0.17.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.7",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-plugin-component": "^1.1.1",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "script-loader": "^0.7.2",
+    "vconsole": "^3.8.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
